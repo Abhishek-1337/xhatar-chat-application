@@ -1,0 +1,28 @@
+.search {
+    border-bottom: 1px solid rgb(211, 198, 198);
+    color: lightgray;
+}
+
+input{
+    background-color: transparent;
+    color:white;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+.userchat{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 14vmin;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding:0.6rem;
+}
+
+.userchat img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+
+}

@@ -1,0 +1,42 @@
+.input, .input input {
+    color: black; 
+    padding:1vmin;
+}
+
+.input input{
+    width:100%;
+}
+
+.input {
+    display: flex;
+    height:2.8rem;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+}
+
+.input input:focus{
+    outline: none;
+}
+
+.chat-items{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.chat-items button{
+    background-color: rgb(137, 137, 181);
+    border-radius: 0.4rem;
+    height: 4vmin;
+    width: 8vmin;
+    font-weight: 600;
+}
+
+.chat-items img{
+    height: 5vmin;
+}
+
+.chat-items .attach{
+    height: 3.5vmin;
+}

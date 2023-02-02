@@ -1,0 +1,29 @@
+.chat {
+    flex: 2;
+    background-color: lightgray;
+}
+
+.chat-info {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(80, 80, 119);
+    height: 2.8rem;
+    font-size: 1.7rem;
+    padding: 1rem;
+}
+
+.chat-info span{
+    font-weight: 600;
+}
+
+.chat-options{
+    width: 17vmin;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.chat-options img{
+    height: 1.5rem;
+    width:  1.5rem;
+}

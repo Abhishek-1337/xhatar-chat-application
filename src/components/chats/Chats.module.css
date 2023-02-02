@@ -1,0 +1,10 @@
+.display {
+    display: flex;
+    flex-direction: column;
+    color:lightgray;
+}
+
+.display p{
+    text-align: center;
+    font-size: 0.8rem;
+}

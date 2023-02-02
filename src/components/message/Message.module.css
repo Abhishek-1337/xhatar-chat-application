@@ -1,0 +1,24 @@
+.message{
+    display: flex;
+    margin :1rem;
+}
+
+.messageInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.messageInfo img{
+   height: 5vmin;
+   width: 5vmin;
+   border-radius: 50%;
+}
+
+.messageContent{
+    width: 50%;
+}
+
+.messageContent p{
+    background-color: white;
+    padding: 0.8rem;
+}
