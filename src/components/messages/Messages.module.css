@@ -1,3 +1,10 @@
 .messages {
-    height: calc(100% - 20vmin);
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 18vmin);
+    overflow: scroll;
+}
+
+.messages::-webkit-scrollbar{
+    display: none;
 }
