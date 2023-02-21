@@ -32,7 +32,7 @@ input{
     height:5vmin;
     border: none;
     border-bottom: 2px solid #a7bcff;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .form-wrapper button{

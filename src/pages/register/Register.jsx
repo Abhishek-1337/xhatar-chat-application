@@ -1,12 +1,11 @@
 import styles from './Register.module.css';
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { auth, db, storage } from "../../firebase";
 import { doc, setDoc } from "firebase/firestore"; 
 import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
 import Add from "../../assets/img/user.png";
-import {useNavigate} from "react-router-dom";
 
 
 const Register = () => {
@@ -25,7 +24,6 @@ const Register = () => {
             const res = await createUserWithEmailAndPassword(auth, email, password);
             console.log(res.user.uid);
             const storageRef = ref(storage, displayName);
-            // const uploadTask = await uploadBytesResumable(storageRef, file);
             await uploadBytesResumable(storageRef, file).then(() => {
                 getDownloadURL(storageRef).then(async (downloadURL) => {
                   try {
@@ -45,7 +43,6 @@ const Register = () => {
                     //create empty user chats on firestore
                     await setDoc(doc(db, "userChats", res.user.uid), {});
                     navigate("/");
-                    // navigate("/");
                   } catch (err) {
                     console.log(err);
                     setErr(true);
@@ -74,8 +71,8 @@ const Register = () => {
                         <span>Add an avatar</span>
                     </label>
                     <button type="submit" className="btn">Sign up</button>
-                </form>
                 {err && <span>Something went wrong</span>}
+                </form>
                 <p>
                     Already have an account? <Link to="/login" className={styles.title}>Login</Link>
                 </p>

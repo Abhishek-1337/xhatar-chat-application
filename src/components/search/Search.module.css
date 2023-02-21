@@ -7,6 +7,7 @@
     background-color: transparent;
     color:white;
     text-decoration: none;
+    outline: none;
     border: 1px solid black;
 }
 
@@ -16,6 +17,7 @@
     justify-content: space-between;
     width: 14vmin;
     font-size: 1.3rem;
+    gap: 10px;
     font-weight: 600;
     padding:0.6rem;
 }
