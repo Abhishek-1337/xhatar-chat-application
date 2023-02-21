@@ -17,11 +17,11 @@ const Messages = () => {
             unsub();
         }
     }, [data.chatId]);
-
+    console.log(messages);
     return (
         <div className={styles.messages}>
             {
-                messages.map((m)=><Message message={m}/>)
+                messages?.map((m)=><Message message={m} key={m.id}/>)
             }
         </div>
     );
