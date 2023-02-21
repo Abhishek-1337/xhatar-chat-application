@@ -67,3 +67,9 @@ label{
 label img{
     width: 32px;
 }
+
+@media (max-width: 480px){
+    .logo {
+        display: none;
+    }
+}

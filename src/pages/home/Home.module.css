@@ -9,10 +9,15 @@
 }
 
 .container {
-    border: 1px solid white;
     border-radius: 0.5rem;
-    width:140vmin;
-    height:90vmin;
+    width:65%;
+    height:80%;
     display: flex;
     overflow: hidden;
+}
+
+@media (max-width: 480px){
+    .container {
+        width: 90%;
+    }
 }

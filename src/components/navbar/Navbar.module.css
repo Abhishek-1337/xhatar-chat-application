@@ -6,7 +6,7 @@
     background-color: rgb(35, 35, 67);
     color: rgb(204, 197, 197);
     padding:1rem;
-    font-size:1.10rem;
+    font-size:0.98rem;
     font-weight: 600;
 }
 
@@ -26,7 +26,13 @@
 
 .user button{
     background:rgb(137, 137, 181);
-    height:5vmin;
+    height: 28px;
     border-radius: 0.5rem;
     font-weight: 600;
+}
+
+@media (max-width: 945px){
+    .logoi {
+        display: none;
+    }
 }
