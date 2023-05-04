@@ -23,7 +23,7 @@
 .form-wrapper form{
     display: flex;
     flex-direction: column;
-    padding-top: 1.5rem;
+    /* padding-top: 1.5rem; */
     gap: 2.2rem;
 }
 
@@ -45,11 +45,12 @@ input{
 }
 
 .logo {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 
 .title ,p, input{
+    font-size:0.8rem;
     font-weight: 600;
     text-decoration: none;
 }

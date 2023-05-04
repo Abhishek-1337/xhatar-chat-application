@@ -37,12 +37,13 @@ const Chats = () => {
                 <img src={chatters[1].userInfo.photoURL} alt="Profile pic"/>
                 <div className={styles1.display}>
                     <span>{chatters[1].userInfo.displayName}</span>
-                    <p>{chatters[1].lastMessage.text}</p>
+                    <p>{chatters[1].lastMessage.text}</p> 
                 </div>                
             </div>
             );
         })
        }       
+       
        </div>
     );
 }

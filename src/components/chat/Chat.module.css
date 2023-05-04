@@ -8,8 +8,6 @@
     justify-content: space-between;
     align-items: center;
     background-color: rgb(80, 80, 119);
-    height: 2.4rem;
-    font-size: 1.3rem;
     padding: 1rem;
 }
 
@@ -25,6 +23,15 @@
 }
 
 .chat-options img{
-    height: 1.3rem;
-    width:  1.3rem;
+    width:  1.2rem;
+}
+
+#addFriend{
+    width:1rem;
+}
+
+@media (max-width: 720px){
+    .chat-options{
+        width: 40%;
+    }
 }

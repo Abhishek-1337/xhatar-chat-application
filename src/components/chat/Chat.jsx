@@ -16,7 +16,7 @@ const Chat = () => {
             <span>{data.user.displayName}</span>
             <div className={styles['chat-options']}>
                 <img src={Cam} alt=""/>
-                <img src={Add} alt=""/>
+                <img src={Add} alt="" id={styles.addFriend}/>
                 <img src={More} alt=""/>
             </div>
         </div>

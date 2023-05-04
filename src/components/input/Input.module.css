@@ -4,7 +4,7 @@
 }
 
 .input input{
-    width:100%;
+    width:64%;
 }
 
 .input {
@@ -28,15 +28,10 @@
 .chat-items button{
     background-color: rgb(137, 137, 181);
     border-radius: 0.4rem;
-    height: 4vmin;
-    width: 8vmin;
     font-weight: 600;
-}
-
-.chat-items img{
-    height: 5vmin;
+    padding: 0.1rem 0.2rem;
 }
 
 .chat-items .attach{
-    height: 3.5vmin;
+    width: 22%;
 }

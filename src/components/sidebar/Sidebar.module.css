@@ -1,5 +1,11 @@
 .sidebar {
     flex: 1;
-    width:40%;
+    width: 40%;
     background:rgb(81, 81, 135);
+}
+
+@media (max-width: 720px){
+    .sidebar {
+        display: none;
+    }
 }

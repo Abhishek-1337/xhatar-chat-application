@@ -1,7 +1,7 @@
 .messages {
     display: flex;
     flex-direction: column;
-    height: calc(100% - 8rem);
+    height: calc(100% - 6.6rem);
     overflow: scroll;
 }
 
